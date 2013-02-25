@@ -56,7 +56,7 @@ Using scheduleManager instead of timer functions also gives you benefit of pausi
 
 ## Layers
 
-Now we are ready to add something on the screen. To better manage your display object we have introduced *lime.Layer* objects. You can think about them in a same way as Photoshop layers. Layers are there to hold stuff in. They act as any other display objects with an exception that they don't have any body or size themselves. Their only contents is their children objects. So you create them, add to the tree, position if necessary and add child objects into to them. Just to be clear, using layers is not required  - your can add any display objects to the scene. Layers just make your life easier.
+Now we are ready to add something on the screen. To better manage your display object we have introduced *lime.Layer* objects. You can think about them in a same way as Photoshop layers. Layers are there to hold stuff in. They act as any other display objects with an exception that they don't have any body or size themselves. Their only contents is their children objects. So you create them, add to the tree, position if necessary and add child objects into to them. Just to be clear, using layers is not required  - you can add any display objects to the scene. Layers just make your life easier.
 
     #!JavaScript
     var layer = new lime.Layer().setPosition(100,100);
